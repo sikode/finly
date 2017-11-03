@@ -1,0 +1,139 @@
+#services {
+    padding: 180px 0;
+    text-align: center;
+
+    @media screen and ( max-width:575px ) {
+        padding: 80px 0;
+    }
+
+    .list_services {
+        margin-top: 80px;
+
+        @media screen and ( max-width:575px ) {
+            margin-top: 50px;
+            padding: 0 30px;
+        }
+
+        .content {
+            border: 1px solid $c-ef;
+            border-radius: 5px;
+            margin: 0 20px;
+
+            transition: all 0.35s ease-in-out;
+
+            .icon {
+                color: $c-primary;
+                padding: 60px 0;
+                font-size: 56px;
+            }
+
+            h4 {
+                color: $c-b;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+
+            p {
+                padding: 0 25px;
+                margin-bottom: 60px;
+            }
+
+            .fa-long-arrow-right {
+                font-size: 26px;
+                margin-bottom: 60px;
+                opacity: 0.35;
+
+                transition: all 0.35s ease-in-out;
+            }
+
+            &:hover, &:focus, &:active {
+                margin-top: -10px;
+                border-color: rgba(0, 0, 0, 0.02);
+                box-shadow: 0 5px 22px rgba(0, 0, 0, 0.08);
+
+                .fa-long-arrow-right {
+                    color: $c-primary;
+                    opacity: 1;
+                }
+            }
+
+            @media screen and ( max-width:991px ) {
+                margin: 0 5px;
+
+                .icon {
+                    font-size: 48px;
+                }
+
+                p {
+                    font-size: 13px;
+                    padding: 0 5px;
+                }
+
+                .fa-long-arrow-right {
+                    margin-bottom: 25px;
+                }
+            }
+
+            @media screen and ( max-width:767px ) {
+                margin: 0 0 20px;
+
+                .icon {
+                    font-size: 48px;
+                }
+
+                p {
+                    padding: 0 30px;
+                }
+            }
+
+            @media screen and ( max-width:575px ) {
+                margin: 0 0 30px;
+
+                .icon {
+                    padding: 40px 0;
+                }
+
+                h4 {
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 13px;
+                    padding: 0 5px;
+                    margin-bottom: 30px;
+                }
+
+                .fa-long-arrow-right {
+                    margin-bottom: 25px;
+                }
+            }
+
+        }
+
+        
+
+    } // list_services
+
+    .btn_see_all {
+        display: inline-block;
+        margin-top: 100px;
+        border: 1px solid $c-ef;
+        color: $c-b;
+        border-radius: 5px;
+        padding: 10px 35px;
+        text-decoration: none;
+
+        &:hover, &:focus, &:active {
+            background-color: $c-primary;
+            color: $w;
+        }
+
+        @media screen and ( max-width:575px ) {
+            margin-top: 50px;
+            font-size: 13px;
+        }
+    }
+
+    
+}

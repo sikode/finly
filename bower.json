@@ -1,0 +1,26 @@
+{
+  "name": "finly",
+  "description": "HTML Template",
+  "main": "index.html",
+  "authors": [
+    "sptrcode"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "GULP"
+  ],
+  "homepage": "https://github.com/sptrcode/finly",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-beta"
+  }
+}
