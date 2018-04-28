@@ -1,7 +1,27 @@
-@import 'variables';
-@import 'global';
-@import 'main_header';
-@import 'services';
-@import 'portfolio';
-@import 'about';
-@import 'purchase';
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+//
+// Grid mixins
+//
+
+@import "bootstrap/mixins/breakpoints";
+
+
+// including variables and mixins
+@import "theme/variables";
+@import "theme/mixins";
+@import "theme/flexbox";
+@import "theme/reset";
+
+
+// Custom Scss 
+@import "theme/elements";
+@import "theme/header";
+@import "theme/home";
+@import "theme/about";
+@import "theme/gallery";
+@import "theme/facilities";
+@import "theme/contact";
+@import "theme/footer";
+@import "theme/galeri/galeri.scss";

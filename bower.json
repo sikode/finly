@@ -1,9 +1,9 @@
 {
-  "name": "finly",
+  "name": "hutan-pinus-mangunan",
   "description": "HTML Template",
   "main": "index.html",
   "authors": [
-    "sptrcode"
+    "sikode"
   ],
   "license": "ISC",
   "keywords": [
@@ -12,7 +12,7 @@
     "SASS",
     "GULP"
   ],
-  "homepage": "https://github.com/sptrcode/finly",
+  "homepage": "https://github.com/sikode/hutan-pinus-mangunan",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -21,6 +21,9 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "4.0.0-beta"
+    "bootstrap": "4.0.0-beta",
+    "magnific-popup": "^1.1.0",
+    "wow": "^1.1.2",
+    "isotope-layout": "^3.0.6"
   }
 }

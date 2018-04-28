@@ -1,0 +1,43 @@
+#fasilitas {
+   .header-text{
+      text-align:center;
+      padding-bottom: 80px;
+		h1 {
+			margin-bottom:25px;
+      }
+      @include media-breakpoint-down(sm) {
+         padding-bottom: 50px;
+      }
+   }
+   
+   .sigle-facilities {
+      margin-bottom:25px;
+      .fa{
+         font-size:35px;
+         color:$offwhite;
+         margin-right: 1rem;
+         @include transition();
+         &:hover{
+            color: $primary-color;
+         }
+      }
+      h4{
+         font-size: 20px;
+         color: $text-color;
+         display: inline-block;
+      }
+      p{
+         margin-top: 20px;
+         margin-bottom:35px;
+      }
+      @include media-breakpoint-down(md) {
+         margin-bottom:20px;
+         .fa {
+            color: $primary-color;
+         }
+      };
+   }
+   p {
+      font-size: 16px;
+   }
+}
