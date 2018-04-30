@@ -1,9 +1,9 @@
 {
-  "name": "finly",
-  "description": "HTML Template",
+  "name": "finly-website",
+  "description": "Modern HTML Template",
   "main": "index.html",
   "authors": [
-    "sptrcode"
+    "KANGABBAD"
   ],
   "license": "ISC",
   "keywords": [
@@ -12,7 +12,7 @@
     "SASS",
     "GULP"
   ],
-  "homepage": "https://github.com/sptrcode/finly",
+  "homepage": "https://github.com/KangAbbad/finly-website",
   "ignore": [
     "**/.*",
     "node_modules",

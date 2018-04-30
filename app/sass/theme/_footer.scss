@@ -1,0 +1,166 @@
+footer {
+   padding-top:100px;
+   background-color:#272727;
+
+   h6{
+      color:$white;
+      margin-bottom:25px;
+      font-size:18px;
+      font-weight:600;
+
+      @media screen and (max-width: 425px) {
+         margin-bottom: 10px;
+      }
+   }
+
+   p {
+      color: $white;
+      font-size: 14px;
+   }
+   
+   .instafeed {
+      margin: -5px;
+      li {
+         overflow: hidden;
+         width: 25%;
+         img {
+            margin: 5px;
+            width: 58px;
+            height: 58px;
+            object-fit:cover;
+            -o-object-fit:cover;
+         }
+      }
+   }
+   
+   
+   .footer-social{
+      a{
+         padding-right:25px;
+         @include transition();
+      }
+      
+      i{
+         color:#cccccc;
+         @include transition();
+         &:hover{
+            color: $primary-color;
+         }
+      }
+      @include media-breakpoint-down(md) {
+         text-align:left;
+      }
+   }
+   
+   
+   .single-footer-widget {
+      input {
+         border: none;
+         width:80%;
+         font-weight: 300;
+         background: #191919;
+         color:$primary-color;
+         padding-left:20px;
+         border-radius: 0;
+         font-size: 14px;
+         &:focus {
+            color: $primary-color;
+            background-color: #191919;
+         }
+      }
+   
+      .info {
+            position:absolute;
+            margin-top:20%;
+            color: #fff;
+            font-size: 12px;
+            &.valid {
+               color: green;
+            }
+            &.error {
+               color: red;
+            }
+   
+      }
+   
+      .click-btn{
+         background-color: $primary-color;
+         color: #fff;
+         border-radius: 0;
+         border-top-left-radius: 0px;
+         border-bottom-left-radius: 0px;
+         padding: 8px 12px;
+         border:0;
+      }
+   
+      ::-moz-selection {
+         /* Code for Firefox */
+         background-color: #191919 !important;
+         color: rgba($color: $white, $alpha: 0.8);
+      }
+
+      ::selection {
+         background-color: #191919 !important;
+         color: rgba($color: $white, $alpha: 0.8);
+      }
+
+      ::-webkit-input-placeholder {
+         /* WebKit, Blink, Edge */
+         color: rgba($color: $white, $alpha: 0.8);
+         font-weight: 300;
+      }
+
+      :-moz-placeholder {
+         /* Mozilla Firefox 4 to 18 */
+         color: rgba($color: $white, $alpha: 0.8);
+         opacity: 1;
+         font-weight: 300;
+      }
+
+      ::-moz-placeholder {
+         /* Mozilla Firefox 19+ */
+         color: rgba($color: $white, $alpha: 0.8);
+         opacity: 1;
+         font-weight: 300;
+      }
+
+      :-ms-input-placeholder {
+         /* Internet Explorer 10-11 */
+         color: rgba($color: $white, $alpha: 0.8);
+         font-weight: 300;
+      }
+
+      ::-ms-input-placeholder {
+         /* Microsoft Edge */
+         color: rgba($color: $white, $alpha: 0.8);
+         font-weight: 300;
+      }
+   
+      @include media-breakpoint-down(md) {
+         margin-bottom:30px;
+      }
+   }
+
+   .footer-text{
+      padding-top:80px;
+      a{
+         color:$primary-color;
+      }
+      @include media-breakpoint-down(md) {
+         padding-top: 40px;
+      }
+      @include media-breakpoint-down(sm) {
+         padding-top: 20px;
+      }
+      @media screen and (max-width: 320px) {
+         padding-top: 10px;
+      }
+   }
+
+
+   @media screen and (max-width: 991px) {
+      .instafeed-no-display {
+         display: none;
+      }
+   }
+}

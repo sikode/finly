@@ -1,0 +1,114 @@
+#subscribe {
+    background-color: $c_bb;
+    padding: 120px 0 40px;
+    text-align: center;
+
+    h4 {
+        font-size: 32px;
+        margin-bottom: 40px;
+        color: $w;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+    }
+
+    form {
+        margin-bottom: 55px;
+
+        input {
+            width: 100%;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 5px;
+            outline: 0;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px 20px;
+            background-color: $primary;
+            border-color: $primary;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: $w;
+            letter-spacing: 1px;
+        }
+    }
+
+    .content {
+        padding: 0;
+
+        h4 {
+            text-align: left;
+            font-size: 26px;
+            font-weight: 700;
+            color: $w;
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            text-align: left;
+            font-size: 15px;
+            font-weight: 500;
+            color: $c_content;
+            margin-top: 5px;
+
+            a {
+                display: inline;
+                text-decoration: none;
+                color: $w;
+
+                &:hover, &:active, &:focus {
+                    color: $w; 
+                }
+            }
+        }
+
+        ul {
+            text-align: right;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                list-style: none;
+
+                a {
+                    display: block;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: $c_content;
+                    padding-left: 25px;
+
+                    &:hover, &:active, &:focus {
+                        color: $w;
+                    }
+
+                    &:last-child{
+                        padding-right: 0;
+                    }
+
+                    @media screen and (max-width:767px){
+                        padding: 0 10px;
+                        font-size: 14px;
+                    }
+                }
+
+                .fa {
+                    display: block;
+                    font-size: 15px;
+                    color: $c_content;
+                    padding: 10px 10px 0;
+
+                    &:hover, &:active, &:focus {
+                        color: $w;
+                    }
+                }
+            }
+        }
+    }
+}

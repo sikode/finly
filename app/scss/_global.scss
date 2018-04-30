@@ -1,0 +1,46 @@
+body {
+    font-family: $font;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: $c_content;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+}
+
+// Section
+.title_section {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: $c_ts;
+}
+
+.desc_section {
+    font-size: 36px;
+    font-weight: 600;
+    color: $c_b;
+
+    @media screen and (max-width:575px) {
+        font-size: 28px;
+        line-height: 1.2;
+        margin-top: 15px;
+    }
+}
+
+.content_section {
+    font-weight: 500;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+}
+
+.clearfix {
+    &::before, &::after {
+        content: "";
+        clear: both;
+    }
+    &::after {
+        display: table;
+    }
+}

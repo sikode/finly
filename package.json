@@ -1,5 +1,5 @@
 {
-  "name": "finly",
+  "name": "finly-website",
   "version": "1.0.0",
   "description": "Modern Workflow",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sptrcode/finly.git"
+    "url": "git+https://github.com/KangAbbad/finly-website.git"
   },
   "keywords": [
     "HTML",
@@ -16,12 +16,12 @@
     "SASS",
     "GULP"
   ],
-  "author": "sptrcode",
+  "author": "KANGABBAD",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sptrcode/finly/issues"
+    "url": "https://github.com/KangAbbad/finly-website/issues"
   },
-  "homepage": "https://github.com/sptrcode/finly#readme",
+  "homepage": "https://github.com/KangAbbad/finly-website#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "del": "^3.0.0",
@@ -36,6 +36,5 @@
     "gulp-uglify": "^3.0.0",
     "gulp-useref": "^3.1.2",
     "run-sequence": "^2.2.0"
-  },
-  "dependencies": {}
+  }
 }

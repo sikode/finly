@@ -1,0 +1,15 @@
+#brand {
+    padding-bottom: 70px;
+    text-align: center;
+
+    .content {
+        opacity: 0.5;
+        overflow: hidden;
+        text-align: center;
+
+        img {
+            width: 180px;
+            max-width: 100%;
+        }
+    }
+}

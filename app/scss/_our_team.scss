@@ -1,0 +1,53 @@
+#our_team {
+    text-align: center;
+    padding-bottom: 160px;
+
+    h4 {
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    .list_team {
+        margin-top: 50px;
+
+        .content {
+            height: 100%;
+            position: relative;
+        }
+
+        img {
+            height: 180px;
+            border-radius: 100%;
+
+            &:hover, &:active, &:focus {
+                transform: scale(1.1);
+                transition: 0.5s ease-in-out;
+            }
+        }
+
+        h5 {
+            display: block;
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 40px;
+            color: $c_b;
+
+            span {
+                display: block;
+                font-weight: 400;
+                font-size: 14px;
+                color: $c_content;
+                margin-top: 5px;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media screen and (max-width:767px){
+            margin-top: 50px;
+
+            img {
+                height: 150px;
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+#beranda {
+	position: relative;
+	z-index: 0;
+	background-image: url('../images/bg_header-mumuh23.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	height: 100vh;
+	min-height: 800px;
+	@media screen and (max-width:992px) {
+		min-height: 768px;
+	}
+
+	@media screen and (max-width: 667px) {
+		min-height: 500px;
+	}
+
+	@media screen and (max-width: 375px) {
+		min-height: 480px;
+		height: 100vh;
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.65);
+		z-index: -1;
+	}
+
+	.home-content {
+		padding-top: 240px;
+		
+		@media screen and (max-width:823px) {
+			padding-top: 160px;
+		}
+		@media screen and (max-width:812px) {
+			padding-top: 150px;
+		}
+		
+		.about-us {
+			font-size: 30px;
+			position: absolute;
+			.fa {
+				position: absolute;
+				color: rgba($color: $white, $alpha: 0.9);
+			}
+			.second-arrow {
+				top: 9px;
+			}
+			.third-arrow {
+				top: 18px;
+			}
+		}
+
+		@media screen and (max-width:568px) {
+			padding-top: 110px;
+			.about-us {
+				font-size: 25px;
+			}
+		}
+		@media screen and (max-width:425px) {
+			padding-top: 240px;
+			.about-us {
+				font-size: 30px;
+			}
+		}
+		@media screen and (max-width:375px) {
+			padding-top: 180px;
+		}
+		@media screen and (max-width:320px) {
+			.about-us {
+				font-size: 25px;
+			}
+		}
+	}
+
+}

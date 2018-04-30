@@ -1,2 +1,2 @@
-# finly
-Modern Front End Workflow
+# finly-website
+Create Finly website with GULP
